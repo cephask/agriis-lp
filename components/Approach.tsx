@@ -8,14 +8,14 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Our <span className="text-purple">goals</span>
+        What <span className="text-purple">we</span> do:
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="Innovation"
-          icon={<AceternityIcon order="Goal 1" />}
+          icon={<AceternityIcon order="Innovate" />}
           des="Availing timely and workable technologies in agriculture."
         >
           <CanvasRevealEffect
@@ -26,7 +26,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Profitability"
-          icon={<AceternityIcon order="Goal 2" />}
+          icon={<AceternityIcon order="Engage" />}
           des="Inspiring farmers to engage in profitable agriculture."
         >
           <CanvasRevealEffect
@@ -45,9 +45,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Livelihood"
-          icon={<AceternityIcon order="Goal 3" />}
-          des="Ushering in decent livelihood for farming communities."
+          title="Support"
+          icon={<AceternityIcon order="Support" />}
+          des="Support farmers to realize decent livelihood through farming."
         >
           <CanvasRevealEffect
             animationSpeed={3}
