@@ -39,14 +39,15 @@ const Hero = () => {
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            */}
           <TextGenerateEffect
-            words="Agriculture Creates Wealth"
+            words="Agriculture Innovative Solutions"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            <span className="text-purple">Agri</span>culture
+            Inspiring Wealth Creation in Agriculture
+            {/* <span className="text-purple">Agri</span>culture
             <span className="text-purple"> I</span>nnovative
-            <span className="text-purple"> S</span>olutions
+            <span className="text-purple"> S</span>olutions */}
           </p>
 
           <a href="#about">
